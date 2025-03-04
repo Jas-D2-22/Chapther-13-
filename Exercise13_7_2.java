@@ -95,7 +95,7 @@ class Triangle extends GeometricObject {
 }
 
 // Test program
-public class Exercise13_7.2 {
+public class Exercise13_7_2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

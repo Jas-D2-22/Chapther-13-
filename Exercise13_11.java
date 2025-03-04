@@ -95,10 +95,11 @@ class Triangle extends GeometricObject {
 }
 
 // Test program
-public class Exercise13_7.2 {
+public class Exercise13_11 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
+        // Prompt user for input
         System.out.print("Enter side1: ");
         double side1 = input.nextDouble();
         System.out.print("Enter side2: ");
@@ -111,8 +112,10 @@ public class Exercise13_7.2 {
         System.out.print("Is the triangle filled? (true/false): ");
         boolean filled = input.nextBoolean();
 
+        // Create Triangle object
         Triangle triangle = new Triangle(side1, side2, side3, color, filled);
 
+        // Display triangle details
         System.out.println("Triangle Details:");
         System.out.println("Area: " + triangle.getArea());
         System.out.println("Perimeter: " + triangle.getPerimeter());
@@ -120,3 +123,4 @@ public class Exercise13_7.2 {
         System.out.println("Filled: " + triangle.isFilled());
     }
 }
+
